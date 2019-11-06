@@ -7,3 +7,5 @@ services:
       - "./usr/scr/app"
     ports:
       - 5000:80
+    stdin_open: true
+    tty: true
